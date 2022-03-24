@@ -4,7 +4,7 @@
 }
 
 .logo {
-  width: 300px;
+  width: 350px;
   height: 200px;
   display: block;
   margin-left: auto;
@@ -18,9 +18,52 @@ li {
   color: white;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
 nav {
   background-color: #409c60;
   opacity: 0.6;
   height: 60px;
   text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.home-img {
+  margin: 10px;
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: #838282;
+  opacity: 0.6;
+  height: 150px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(185, 185, 181, 0.5),
+    rgba(86, 141, 111, 0.5)
+  );
 }
