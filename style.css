@@ -50,7 +50,7 @@ h1 {
   padding: 10px;
 }
 
-.home-img {
+.container .home-img {
   margin: 10px;
   width: 1000px;
   height: 700px;
@@ -104,4 +104,12 @@ footer {
 
 .bottom {
   padding-top: 60px;
+}
+
+/* Products page */
+
+.dining-table {
+  width: 100%;
+  filter: drop-shadow(-1px 0px 5px white var(--color-light));
+  opacity: 0.8;
 }
