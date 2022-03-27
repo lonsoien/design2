@@ -52,8 +52,8 @@ h1 {
 
 .container .home-img {
   margin: 10px;
-  width: 1000px;
-  height: 700px;
+  width: 83%;
+  height: auto;
   border-radius: 5px;
 }
 
@@ -64,11 +64,11 @@ h1 {
 }
 
 .container .btn {
-  width: 1000px;
+  width: 80%;
   height: 150px;
   position: absolute;
   top: 20%;
-  left: 14.95%;
+  left: 9.9%;
   background-color: white;
   text-decoration: black;
   opacity: 0.5;
@@ -116,15 +116,15 @@ footer {
 
 .collection-products {
   display: flex;
-  grid-gap: 30px;
+  grid-gap: 40px;
   margin: 50px;
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 .collection {
   border-radius: 15px;
-  width: 350px;
-  height: 390px;
+  width: 25%;
+  height: auto;
   filter: drop-shadow(-1px 0px 5px white var(--color-light));
   opacity: 0.8;
 }
