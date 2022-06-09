@@ -1,17 +1,10 @@
-@font-face {
-  font-family: "Bodoni Moda";
-  src: url("/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf");
-  src: url("/Roboto/Roboto-Bold.ttf");
-  font-weight: 100;
-  font-style: normal;
-}
 
 * {
   margin: 0px;
 }
 
 body {
-  font-family: "Bodoni Moda";
+  font-family: 'Bodoni Moda', serif;
   background-image: linear-gradient(
     to bottom,
     rgba(185, 185, 181, 0.5),
@@ -53,7 +46,7 @@ nav {
 }
 
 h1 {
-  font-family: "roboto";
+  font-family: 'Bodoni Moda', serif;
   font-size: 50px;
   text-align: center;
   margin: 10px;
@@ -104,12 +97,19 @@ h2 {
   padding: 40px;
 }
 
-footer {
+.footer {
   background-color: #838282;
-  opacity: 0.4;
+  opacity: 0.9;
   height: 150px;
   text-align: center;
   justify-content: space-between;
+}
+
+.icon {
+  float: right;
+  justify-content: space-between;
+  padding-right: 40px;
+  margin-bottom: 10px;
 }
 
 .bottom {
